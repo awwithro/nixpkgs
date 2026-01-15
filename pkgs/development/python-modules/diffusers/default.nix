@@ -45,7 +45,7 @@
 
 buildPythonPackage rec {
   pname = "diffusers";
-  version = "0.35.1";
+  version = "0.36.0";
   pyproject = true;
 
   src = fetchFromGitHub {
